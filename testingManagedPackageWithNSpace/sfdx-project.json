@@ -1,0 +1,21 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "myManagedPack",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
+    }
+  ],
+  "name": "testingManagedPackageWithNSpace",
+  "namespace": "MMPACK",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "59.0",
+  "packageAliases": {
+    "myManagedPack": "0HoGC000000Kz5l0AC",
+    "myManagedPack@0.1.0-1": "04tGC000007OpMUYA0",
+    "myManagedPack@0.1.0-2": "04tGC000007OpMZYA0"
+  }
+}
