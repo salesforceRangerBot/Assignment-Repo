@@ -8,7 +8,7 @@ public class ChangeAccOnOppStatusHandler {
         for(Account accObj :[Select id,rating from Account where Id IN:oppOnAccIdMap.keySet()]){
             if(oppOnAccIdMap.get(accObj.Id).stagename == 'Closed Won'){
                 accObj.rating = 'Hot';
-                accListToUpdate.add(accObj);
+                accListToUpdate.add(accObj);//MyChange
             }
         }
         
