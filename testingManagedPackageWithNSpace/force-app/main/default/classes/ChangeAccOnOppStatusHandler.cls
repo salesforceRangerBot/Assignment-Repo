@@ -13,6 +13,6 @@ public class ChangeAccOnOppStatusHandler {
         }
         
         if(!accListToUpdate.isEmpty())
-            update accListToUpdate;
+            update accListToUpdate; //dml statement 
     }
 }
