@@ -5,6 +5,7 @@ public class ChangeAccOnOppStatusHandler {
             oppOnAccIdMap.put(oppAcc.AccountId, oppAcc);
         }
         List<Account> accListToUpdate = new List<Account>();
+        //Querying the Account
         for(Account accObj :[Select id,rating from Account where Id IN:oppOnAccIdMap.keySet()]){
             if(oppOnAccIdMap.get(accObj.Id).stagename == 'Closed Won'){
                 accObj.rating = 'Hot';
